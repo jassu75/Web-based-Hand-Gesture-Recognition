@@ -47,21 +47,11 @@ def predict_label(img_path):
 	classes_x=np.argmax(predict_x,axis=1)
 	
 	return verbose_name[classes_x[0]]
-    
-                           
-@app.route("/")
-@app.route("/first")
-def first():
-	return render_template('first.html')
-    
-@app.route("/login")
-def login():
-	return render_template('login.html')   
  
 
 
  
-@app.route("/index", methods=['GET', 'POST'])
+@app.route("/", methods=['GET', 'POST'])
 def index():
 	return render_template("index.html")
 
@@ -77,10 +67,6 @@ def get_output():
 		predict_result = predict_label(img_path)
 
 	return render_template("prediction.html", prediction = predict_result, img_path = img_path)
-
-@app.route("/performance")
-def performance():
-	return render_template('performance.html')
     
 
 if __name__ =='__main__':
