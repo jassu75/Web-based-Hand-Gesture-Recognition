@@ -2,11 +2,18 @@
 
 **Note** : A public URL to access this project does not exist as it is a Machine Learning project. So hosting it on Google Cloud using App Engine is not possible and expensive via Cloud Run. You can access the project and run it on your local system 
 
+## Dataset
+
+The dataset has been taken from Kaggle
+[Kaggle Dataset Link](https://www.kaggle.com/datasets/jayaprakashpondy/hand-gesture-dataset)
+
+
 ## Steps
 
 1) Clone the repository 
 2) Install the dependencies in requirements.txt
-3) python main.py to run the app
+3) Download the dataset from kaggle website and add it to your project
+4) python main.py to run the app
 
 ## Model Capabilities
 
