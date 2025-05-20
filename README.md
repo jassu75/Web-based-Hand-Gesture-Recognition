@@ -14,7 +14,7 @@ The dataset has been taken from Kaggle
 
 1) Clone the repository 
 2) Install the dependencies in requirements.txt
-3) Download the dataset from kaggle website and add it to your project
+3) Download the dataset from kaggle website and add it to your project (If you want to retrain the model)
 4) python main.py to run the app
 
 ## Model Capabilities
