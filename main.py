@@ -1,24 +1,12 @@
 from flask import Flask, render_template, request
 from flask import Flask, render_template, request
-import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
-from tensorflow.keras.metrics import AUC
 import numpy as np
-import cv2
-import mediapipe as mp
-from flask import Flask, render_template, Response
+from flask import Flask, render_template
 
 
 app = Flask(__name__)
-
-
-
-
-dependencies = {
-    'auc_roc': AUC
-}
-
 
 verbose_name = {
 	       
