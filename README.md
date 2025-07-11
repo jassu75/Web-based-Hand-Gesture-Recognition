@@ -33,6 +33,9 @@ Upload the image to detect the sign the image is.
 
 <img width="1860" height="861" alt="image" src="https://github.com/user-attachments/assets/34efab71-fce0-4c74-95f0-ebdea4f08788" />
 
+
+
+
 <img width="1839" height="827" alt="image" src="https://github.com/user-attachments/assets/4f87cd9f-cdf6-494c-b0b8-568d2e9f73b7" />
 
 ### Prediction Page
