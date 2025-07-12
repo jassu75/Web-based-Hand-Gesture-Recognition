@@ -8,6 +8,7 @@
 ## Dataset
 
 The dataset has been taken from Kaggle:  
+
 [Kaggle Dataset Link](https://www.kaggle.com/datasets/jayaprakashpondy/hand-gesture-dataset)
 
 **The model has already been trained and the results are stored in the `hands.h5` file. You do not need this unless you want to retrain the model.**
